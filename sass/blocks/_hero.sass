@@ -1,5 +1,5 @@
 .hero
-    background: #f1f1f1 url('../img/hero/hero-bg.jpg') no-repeat right top 
+    background: #f1f1f1 url('../img/hero/hero-bg.jpg') no-repeat right top 80px
     background-size: auto
     padding-top: 130px
     padding-bottom: 270px
@@ -14,3 +14,12 @@
         +bold
     &__button
         display: block
+@media(max-width: 991px)
+    .hero
+        background-position:  right 20%
+        &>.container
+            background-color: rgba(255,255,255,0.6)
+
+        
+    
+
