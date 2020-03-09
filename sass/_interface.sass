@@ -4,7 +4,7 @@ body
 img
     max-width: 100%
 .section
-    padding: 100px 0
+    padding: 50px 0
     &-title
         font-size: 30px
         text-align: center
@@ -29,6 +29,8 @@ img
     background-color: $primary
     color: #ffffff
     +bold
+    &:hover
+        cursor: pointer
     &-fitting
         color: $primary
         background-color: #ffffff
@@ -63,10 +65,11 @@ input[type="checkbox"]
             height: 30px
             border: 1px solid #dddddd
             margin-right: 20px
-
 @media(max-width: 576px)
-    .button-o
+    .button
         font-size: 10px
+        &-o
+            font-size: 10px
     .section
         padding: 60px 0
         &-title
